@@ -2,7 +2,7 @@ import { connect } from "@/db/db";
 import User from "@/models/user";
 import { NextRequest, NextResponse } from "next/server";
 const accountSid = 'AC89bad76b7497dcef294ff98428ff6952';
-const authToken = '7fe4db0bd71f2c5536beef58a9c89794';
+const authToken = 'cdbee271bbf7bf986d6cd0e991c29de1';
 const client = require('twilio')(accountSid, authToken);
 connect();
 
